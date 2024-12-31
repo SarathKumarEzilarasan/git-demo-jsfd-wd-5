@@ -1,0 +1,149 @@
+OOPS -> Object Oriented Programming
+
+- Inheritance
+   - single level , multi level , multiple ????? 
+- Encapsulation 
+	- private , getter , setter
+- Polymorphism
+   - overloading 
+   		- methodName(no.of parameters) or methodName(type of parameters)
+   - overriding
+   		- parent property overridden by child property
+   		- loose coupling [Parent obj = new Child()]
+   			- Using the above object we can access only the parent properties not the child properties.
+
+- Abstraction -> providing a template or a set of rules [blueprint]
+	- abstract class : partial abstract , multiple inheritance is not supported
+		- either the child should implement the abstract method
+		- make yourself abstract and let the childs to implement the abstract method
+	- interface : full abstraction
+		- either the child should implement the abstract method
+		- make yourself abstract and let the childs to implement the abstract method
+
+
+
+
+
+- access modifiers --> private , public
+
+private - only the same class can access it
+default - same class + other classes in same package can access it
+protected - same class + other classes in same package + child classes in diff package can access it
+public - anyone can access it
+
+
+private > default > protected > public ----> access modifiers
+
+
+
+
+Bmw bmw;
+Tata tata;
+if (s.equals("bmw")){
+   bmw = new Bmw();
+   bmw.tyres();
+   //tax
+   //payment
+}else {
+   tata = new Tata();
+   tata.tyres();
+   //tax
+   //payment
+}
+
+
+///////////////////////////////////////////////////////////////////////////
+
+
+ String s = "bmw";
+Car car;
+
+if (s.equals("bmw")) {
+    car = new Bmw();
+    car.sunroof();
+} else {
+    car = new Tata();
+}
+
+
+car.tyres();
+car.sunroof();
+
+
+Bmw bmw = new Bmw();
+bmw.sunroof();
+
+
+
+
+this 
+ - refers to global variable [this.variable]
+ - this as a keyword refers to the object we are creating
+
+
+super
+ - call the parent constructor from child constructor [this should be first statement]
+ - call the parent method from child methods
+
+final
+ - variable : it will be constant
+ - function : no one can override
+ - class    : no one can extend it
+
+
+
+
+Object -> parent class of all the class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
