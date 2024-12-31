@@ -106,7 +106,7 @@ Object -> parent class of all the class
 
 
 
-Hello from Java
+Hello from Javascript
 
 
 
